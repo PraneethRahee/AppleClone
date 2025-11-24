@@ -15,7 +15,7 @@ const Performance = () => {
             if (!sectionEl) return;
             
             gsap.fromTo(
-                ".content p",
+                "#performance .content p",
                 { opacity: 0, y: 10 },
                 {
                     opacity: 1,
